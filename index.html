@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clebson Bastos - Corretor de Imoveis</title>
+    <link rel="icon" href="./Conteudo/logo corretora branca.png">
+    <link rel="stylesheet" href="./Ajustes/style.css">
+    <link rel="stylesheet" href="./Ajustes/Responsividade.css">
+    <link rel="stylesheet" href=".Ajustes/Animacoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--- TOPO DA PAGE -->
+    <div class="texto" id="texto"></div>
+
+    <div class="fixed-container">
+      <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20"> <img src="./Conteudo/whatsapp1.png" alt="Imagem fixa">
+      <p>Fale Conosco</p> </a>
+    </div>
+
+    <header>
+
+        <div id="inicio" class="navbar">
+            <div class="logo"><img src="./Conteudo/clebson bastos nome - logo.png" alt=""></div>
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        </div>
+
+        <nav class="overlay-menu" id="menu">
+            <button class="close-btn" onclick="toggleMenu()">&times;</button>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#Sobre">Sobre</a></li>
+              <li><a href="#Loteamentos">Loteamentos</a></li>
+              <li><a href="#Email">Email</a></li>
+              <div>
+                <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20"><i class="fa-brands fa-whatsapp"></i></a>
+                <a  href="https://www.instagram.com/cbempreendimentos1?igsh=YjR5YjdwbHV3NXB6" ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@clebsonbastos259?_t=8rss6kMzT6N&_r=1" ><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </ul>
+        </nav>
+    </header>
+
+
+<!--- CONTEUDOS DA PAGE -->
+    <main>
+        <div class="slider-container">
+            <button class="nav-button prev" onclick="moverSlide(-1)">&#10094;</button>
+            <div class="slider">
+
+
+              <!-- Slide 1 -->
+              <div class="slide">
+                <div class="grid-item">
+                    <h1> Frase lote</h1>
+                    <h2> Local loteamento</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>PARCELAS APARTIR DE </h3>
+                    <a href="">SAIBA MAIS</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./Conteudo/Enseada 1.jpeg" alt="">
+                </div>
+              </div>
+
+
+              <!-- Slide 2 -->
+              <div class="slide">
+                <div class="grid-item">
+                    <h1> Frase lote</h1>
+                    <h2> Local loteamento</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>PARCELAS APARTIR DE </h3>
+                    <a href="">SAIBA MAIS</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./Conteudo/Enseada 1.jpeg" alt="">
+                </div>
+              </div>
+
+
+              <!-- Slide 3 -->
+              <div class="slide">
+                <div class="grid-item">
+                    <h1> Frase lote</h1>
+                    <h2> Local loteamento</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>PARCELAS APARTIR DE </h3>
+                    <a href="">SAIBA MAIS</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./Conteudo/Enseada 1.jpeg" alt="">
+                </div>
+              </div>
+
+
+              <!-- Slide 4 -->
+              <div class="slide">
+                <div class="grid-item">
+                    <h1> Frase lote</h1>
+                    <h2> Local loteamento</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>PARCELAS APARTIR DE </h3>
+                    <a href="">SAIBA MAIS</a>
+                </div>
+                <div class="grid-item">
+                    <img src="./Conteudo/Enseada 1.jpeg" alt="">
+                </div>
+              </div>
+            </div>
+
+            
+
+            <button class="nav-button next" onclick="moverSlide(1)">&#10095;</button>
+        </div>
+    </main>
+
+<!--- MENU DOS LOTEAMENTOS  -->
+    <div id="Loteamentos" class="lotes-menu">
+      <div class="menu">
+        <a href="#Marbello"><img src="./Conteudo/loteamento condominio marbello.png" alt="Imagem 1"> </a>
+        <a href="#Enseada"><img src="./Conteudo/loteamento enseada de lagoinha.png" alt="Imagem 2"> </a>
+        <a href="#Portal"><img src="./Conteudo/loteamento portal da lagoinha.png" alt="Imagem 3"> </a>
+        <a href="#Bosque"><img src="./Conteudo/loteamento bosque da praia.png" alt="Imagem 4"> </a>
+      </div>
+    </div>
+
+    <div class="arte-final">
+      <img src="./Conteudo/arte corretora.png" alt="">
+    </div>
+
+    <section>
+<!--- Marbello  -->
+      <div id="Marbello" class="lote">
+        <div class="lote-conteudo marbello">
+          <div class="lote-topo">
+              <img src="./Conteudo/marbelo logo.png" alt="">
+              <p> PRA VOCÊ, O QUE É MAIS IMPORTANTE? <br>
+                ESTAR PRÓXIMO DA CIDADE OU DA NATUREZA ? <br>
+                TER SEGURANÇA COMPLETA OU LAZER ? <br>
+                VALORIZAÇÃO DOS INVESTIMENTOS ?
+                <br> AGORA VOCÊ NÃO PRECISA MAIS ESCOLHER <br>
+                TUDO ISSO EM UM SÓ LUGAR</p>
+
+          </div>
+
+          <div class="lotes-imgs">
+            <div>
+              <img src="./Conteudo/marbelo 1.png" alt="">
+              <img src="./Conteudo/marbelo 2.png" alt="">
+              <img src="./Conteudo/marbelo 3.png" alt="">
+              <img src="./Conteudo/marbelo 4.png" alt="">
+              <img src="./Conteudo/marbelo 5.png" alt="">
+              <img src="./Conteudo/marbelo 6.png" alt="">
+            </div>
+          </div>
+
+          <div class="lotes-textos">  
+            <div class="textos-conteudo">
+              <div class="div-marbello">
+                <h4>AMBIENTES PARA</h4>
+                <h3>LAZER & CONVIVÊNCIA</h3>
+
+                <h4>INFRAESTRUTURA & SEGURANÇA</h4>
+                <h3>PARA SUA FAMILIA</h3>
+
+                <p> Piscina Adulta & Infantil</p>
+                <p> Playground</p>
+                <p> Quadra Beach Tênis</p>
+                <p> Campinho de Futebol</p>
+                <p> Deck Com Churasqueira</p>
+                <p> 34 Vagas Para Estacionamento</p>
+              </div>
+  
+              <div  class="div-marbello">
+                <h4>MELHOR DA REGIÃO</h4>
+                <h3>LOCALIZAÇÃO PRIVILEGIADA</h3>
+
+                <h4>PROX. A NATUREZA & DA CIDADE</h4>
+                <h3>VIVA COM TRANQUILIDADE</h3>
+
+                <p>A 2 Minutos da Praia da Lagoinha</p>
+                <p>A 3 Minutos do Centro de Paraipaba</p>
+                <p>As Margens da CE-162</p>
+                <p>Ruas Asfaltadas</p>
+                <p>Iluminação de otima qualidade</p>
+              </div>
+  
+              <div  class="div-marbello">
+                <h1>10X30M²</h1>
+                <h2> E O TAMANHO DO  <br> SEU NOVO SONHO ?</h2>
+                <p>CONHEÇA O CONDOMÍNIO MARBELLO
+                  EM PARACURU-CE <span>UMA DAS MAS BELAS
+                    CIDADES PRAIANAS</span> DE TODO CEARÁ</p>
+                    
+                  <h3 class="valor-parcela">PARCELAS DE <span>R$: 199,00</span> </h3>
+              </div>
+            </div>
+
+            <div class="lote-buttons">
+              <a href="">Localização</a>
+              <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20">Adquira seu lote</a>
+            </div>
+            <br>
+
+          </div>
+          <img class="lotes-footer" src="./Conteudo/marbelo footer.png" alt="">
+        </div>
+      </div>
+
+<!--- Enseada Da Lagoinha  -->
+      <div id="Enseada" class="lote">
+        <div class="lote-conteudo enseada-lagoinha">
+          <div class="lote-topo">
+              <img src="./Conteudo/enseada lagoinha logo.png" alt="">
+              <p> COM A LOCALIZAÇÃO PRIVILEGIADA <br>
+                SUA ÚNICA PREOCUPAÇÃO É ESCOLHER QUAL O HÓRARIO IDEAL PARA <br>
+                DESFRUTAR DESSE PARAÍSO <br>
+                MARQUE SUA VISITA!</p>
+
+          </div>
+
+          <div class="lotes-imgs">
+            <div>
+              <img src="./Conteudo/Enseada 1.jpeg" alt="">
+              <img src="./Conteudo/Enseada 2.jpeg" alt="">
+              <img src="./Conteudo/Enseada 3.jpeg" alt="">
+              <img src="./Conteudo/Enseada 4.jpeg" alt="">
+              <img src="./Conteudo/Enseada 5.jpeg" alt="">
+              <img src="./Conteudo/Enseada 6.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="lotes-textos">  
+            <div class="textos-conteudo">
+              <div class="div-lagoinha">
+                <p>Ótima oportunidade de investimento e moradia, Já pensou em morar perto do mar e ter a vista mais bela de um pôr do sol? <br>
+                  Há 90 km de Fortaleza. Lagoinha-CE fica localizada em município Paraipaba-CE. Umas das praias mais belas do Ceará e com uma gastronomia variada de mariscos despertou interesse internacional com Rede Hotel Hard Rock chegando na região, valorização de imoveis estar em alta.
+                  Loteamento Enseada de Lagoinha-CE esta localizado há 800 metros desse Local paradisíaco.</p>
+              </div>
+  
+              <div class="div-lagoinha">
+                <h4>MELHOR DA REGIÃO</h4>
+                <h3>LOCALIZAÇÃO PRIVILEGIADA</h3>
+
+                <h4>PROX. A NATUREZA & DA CIDADE</h4>
+                <h3>VIVA COM TRANQUILIDADE</h3>
+
+                <p>A 800m da Praia da Lagoinha</p>
+                <p>A 3 Minutos do Centro de Paraipaba</p>
+                <p>As Margens da CE-162</p>
+                <br>
+                <p>Ruas Asfaltadas</p>
+                <p>Saneamento & Encanamento</p>
+                <p>Iluminação de otima qualidade</p>
+              </div>
+  
+              <div class="div-lagoinha">
+                <h1>8X25M²</h1>
+                <h2> E O TAMANHO DO  <br> SEU NOVO SONHO ?</h2>
+                <p>CONHEÇA O ENSEADA LAGOINHA
+                  EM LAGOINHA-CE <span>UMA DAS MAS BELAS
+                    CIDADES PRAIANAS</span> DE TODO CEARÁ</p>
+                    
+                  <h3 class="valor-parcela">PARCELAS DE <span>R$ 387,50</span> </h3>
+              </div>
+            </div>
+            
+            <div class="lote-buttons">
+              <a href="">Localização</a>
+              <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20">Adquira seu lote</a>
+            </div>
+            <br>
+          </div>
+          <img class="lotes-footer" src="./Conteudo/lagoa do girol footer.jpeg" alt="">
+        </div>
+      </div>
+
+
+<!--- Portal da lagoinha  -->    
+      <div id="Portal" class="lote">
+        <div class="lote-conteudo portallagoinha">
+          <div class="lote-topo">
+              <img src="./Conteudo/Portal da Lagoinha logo.png" alt="">
+              <p> COM A LOCALIZAÇÃO PRIVILEGIADA <br>
+                SUA ÚNICA PREOCUPAÇÃO É ESCOLHER QUAL O HÓRARIO IDEAL PARA <br>
+                DESFRUTAR DESSE PARAÍSO <br>
+                MARQUE SUA VISITA!</p>
+
+          </div>
+
+          <div class="lotes-imgs">
+            <div>
+              <img src="./Conteudo/Enseada 1.jpeg" alt="">
+              <img src="./Conteudo/Enseada 2.jpeg" alt="">
+              <img src="./Conteudo/Enseada 3.jpeg" alt="">
+              <img src="./Conteudo/Enseada 4.jpeg" alt="">
+              <img src="./Conteudo/Enseada 5.jpeg" alt="">
+              <img src="./Conteudo/Enseada 6.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="lotes-textos">  
+            <div class="textos-conteudo">
+              <div class="div-portal">
+                <p>Ótima oportunidade de investimento e moradia, Já pensou em morar perto do mar e ter a vista mais bela de um pôr do sol? <br>
+                  Há 90 km de Fortaleza. Lagoinha-CE fica localizada em município Paraipaba-CE. Umas das praias mais belas do Ceará e com uma gastronomia variada de mariscos despertou interesse internacional com Rede Hotel Hard Rock chegando na região, valorização de imoveis estar em alta.
+                  Loteamento Enseada de Lagoinha-CE esta localizado há 800 metros desse Local paradisíaco.</p>
+              </div>
+  
+              <div class="div-portal">
+                <h4>MELHOR DA REGIÃO</h4>
+                <h3>LOCALIZAÇÃO PRIVILEGIADA</h3>
+
+                <h4>PROX. A NATUREZA & DA CIDADE</h4>
+                <h3>VIVA COM TRANQUILIDADE</h3>
+
+                <p>A 800m da Praia da Lagoinha</p>
+                <p>A 3 Minutos do Centro de Paraipaba</p>
+                <p>As Margens da CE-162</p>
+                <br>
+                <p>Ruas Asfaltadas</p>
+                <p>Saneamento & Encanamento</p>
+                <p>Iluminação de otima qualidade</p>
+              </div>
+  
+              <div class="div-portal">
+                <h1>8X25M²</h1>
+                <h2> E O TAMANHO DO  <br> SEU NOVO SONHO ?</h2>
+                <p>CONHEÇA O ENSEADA LAGOINHA
+                  EM LAGOINHA-CE <span>UMA DAS MAS BELAS
+                    CIDADES PRAIANAS</span> DE TODO CEARÁ</p>
+                    
+                  <h3 class="valor-parcela">PARCELAS DE <span>R$ 387,50</span> </h3>
+              </div>
+            </div>
+            
+            <div class="lote-buttons">
+              <a href="">Localização</a>
+              <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20">Adquira seu lote</a>
+            </div>
+            <br>
+          </div>
+          <img class="lotes-footer" src="./Conteudo/escada lagoinha.jpg" alt="">
+        </div>
+      </div>
+
+
+<!--- Bosque da praia & Lagoas do giral  -->
+      <div id="Bosque" class="lote">
+        <div class="lote-conteudo bosqueloteamento">
+          <div class="lote-topo">
+            <div img-logos>
+              <img class="img-logo" src="./Conteudo/bosque da praia logo.png" alt="">
+              <img class="img-logo1" src="./Conteudo/lagoas do giral logo.png" alt="">
+            </div>
+              <p> COM A LOCALIZAÇÃO PRIVILEGIADA <br>
+                SUA ÚNICA PREOCUPAÇÃO É ESCOLHER QUAL O HÓRARIO IDEAL PARA <br>
+                DESFRUTAR DESSE PARAÍSO <br>
+                MARQUE SUA VISITA!</p>
+
+          </div>
+
+          <div class="lotes-imgs">
+            <div>
+              <img src="./Conteudo/Enseada 1.jpeg" alt="">
+              <img src="./Conteudo/Enseada 2.jpeg" alt="">
+              <img src="./Conteudo/Enseada 3.jpeg" alt="">
+              <img src="./Conteudo/Enseada 4.jpeg" alt="">
+              <img src="./Conteudo/Enseada 5.jpeg" alt="">
+              <img src="./Conteudo/Enseada 6.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="lotes-textos">  
+            <div class="textos-conteudo">
+              <div class="div-bosque">
+                <p>Ótima oportunidade de investimento e moradia, Já pensou em morar perto do mar e ter a vista mais bela de um pôr do sol? <br>
+                  Há 90 km de Fortaleza. Lagoinha-CE fica localizada em município Paraipaba-CE. Umas das praias mais belas do Ceará e com uma gastronomia variada de mariscos despertou interesse internacional com Rede Hotel Hard Rock chegando na região, valorização de imoveis estar em alta.
+                  Loteamento Enseada de Lagoinha-CE esta localizado há 800 metros desse Local paradisíaco.</p>
+              </div>
+  
+              <div class="div-bosque">
+                <h4>MELHOR DA REGIÃO</h4>
+                <h3>LOCALIZAÇÃO PRIVILEGIADA</h3>
+
+                <h4>PROX. A NATUREZA & DA CIDADE</h4>
+                <h3>VIVA COM TRANQUILIDADE</h3>
+
+                <p>A 800m da Praia da Lagoinha</p>
+                <p>A 3 Minutos do Centro de Paraipaba</p>
+                <p>As Margens da CE-162</p>
+                <br>
+                <p>Ruas Asfaltadas</p>
+                <p>Saneamento & Encanamento</p>
+                <p>Iluminação de otima qualidade</p>
+              </div>
+  
+              <div class="div-bosque">
+                <h1>8X25M²</h1>
+                <h2> E O TAMANHO DO  <br> SEU NOVO SONHO ?</h2>
+                <p>CONHEÇA O ENSEADA LAGOINHA
+                  EM LAGOINHA-CE <span>UMA DAS MAS BELAS
+                    CIDADES PRAIANAS</span> DE TODO CEARÁ</p>
+                    
+                  <h3 class="valor-parcela">PARCELAS DE <span>R$ 387,50</span> </h3>
+              </div>
+            </div>
+            
+            <div class="lote-buttons">
+              <a href="">Localização</a>
+              <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20">Adquira seu lote</a>
+            </div>
+            <br>
+          </div>
+          <img class="lotes-footer" src="./Conteudo/portal da lagoinha footer.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+
+<!-- CONTATOS -->
+
+    <div class="contatos">
+      <div class="contato">
+          <div class="conteudos-contatos">
+              <div class="container-contato">
+                  <i class="fa-brands fa-square-whatsapp icon-contato"></i>    
+                  <h3 class="title-contato titu-contato">(85) 98827-6384</h3>
+                </div>
+                
+              <div class="container-contato">
+                  <i class="fa-brands fa-instagram icon-contato"></i>
+                  <h3 class="title-contato titu-contato">@cbempreendimentos1</h3>
+                </div>
+                              
+              <div class="container-contato"> 
+                  <i class="fa-solid fa-envelope icon-contato icon-email"></i> 
+                  <h3 class="title-contato titu-contato">Clebsonbastoscorretordeimoveis@gmail.com</h3>
+                </div>
+
+                <div class="container-contato">
+                  <i class="fa-solid fa-location-dot icon-contato icon-local"></i>
+                  <h3 class="title-contato titu-contato">Rua: Naturalista Feijó Nº490 - Monte Castelo</h3>
+                </div>
+          </div>
+      </div>
+
+      <div id="Email" class="img-meio">
+        <img src="./Conteudo/logo corretora branca.png" alt="">
+      </div>
+
+
+      <div class="email-form">
+        <h1>Envie um email</h1>
+        <form action="https://formsubmit.co/clebsonbastoscorretordeimoveis@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+            <input type="Telefone" name="Telefone" placeholder="Digite seu Telefone" required>
+
+            <textarea cols="22" rows="3" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="_subject" value="Novo Contato!">
+            <input type="text" name="_honey" style="display: none;">
+            <input type="hidden" name="_captcha" value="false">
+       </form>
+      </div>
+    </div>
+
+    <div class="arte-final2">
+      <img src="./Conteudo/arte PMD.png" alt="">
+      <a href="https://exemplo.com" target="_blank">SAIBA MAIS</a>
+    </div>
+    </div>
+<!-- Navegação footer--> 
+
+    <div class="footer-navegação">
+     <div class="nav-footer">
+      <ul>
+        <li style="margin-left: 15px;"><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Loteamento">Loteamentos</a></li>
+        <li><a href="">Fale Conosco </a></li>
+        <li><a href="">Anuncie Aqui</a></li>
+
+      </ul>
+     </div> 
+    </div>
+
+
+<!--- FOOTER FINAL-->
+
+
+  <div id="Sobre"  class="footer2">
+    <div class="footer2-conteudo">
+        <div class="footer2-weblotes">
+            <h2>@WEB LOTES</h2>
+            <p>Para maior conforto  doa nossos clientes estamos com a plataforma  weblotes com  apenas um click .</p>
+            <p>Você consegue  acessar todo nosso catálogo e cadastrar para as promoções ,reservas online, aquisições de lotes e muito mais ....</p>
+        </div>
+            
+        <div class="footer2-sede">
+        <h2>                     <i class="fa-solid fa-location-dot icon-local"></i> Sede - Monte Castelo</h2>
+            <div>
+                <p>Rua: Naturalista Feijó Nº490 - Monte Castelo</p>
+                <P>Segunda à Sábado: 10:00 às 22:00</P>
+                <p>Domingo: 13:00 às 21:00</p>
+            </div>
+        </div>
+
+        <div class="footer2-redes">
+            <div class="rede-buttons">
+                <h2>Siga Nas Redes</h2>
+                <h5>É Confira as novidades</h5>
+                <a href="https://api.whatsapp.com/send?phone=5585988276384&text=Mensagem%20teste%20"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/cbempreendimentos1?igsh=YjR5YjdwbHV3NXB6"><i class="fa-brands fa-instagram "></i></a>
+                <a href="https://www.tiktok.com/@clebsonbastos259?_t=8rss6kMzT6N&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+<!--CREDITOS-->
+  <div class="creditos">
+    <div>
+        <p>© Clebson Bastos - Corretor de imoveis </p>
+        <p> Criado Por Rafael M. Silva </p>
+    </div>
+  </div>
+
+</body>
+    <script src="./Ajustes/Script.js"></script>
+</html>
