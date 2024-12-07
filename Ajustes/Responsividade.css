@@ -303,9 +303,9 @@ form {
 
 .arte-final2 a{
   top: 140px;
-  left: 350px; 
+  left: 330px; 
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
-  padding: 5px 12px;
+  padding: 5px 14px;
   border-radius: 20px;
   font-size: 8px; 
 
@@ -320,6 +320,7 @@ form {
   grid-template-columns: 1fr;
   padding: 20px 30px;
   gap: 50px;
+  text-align: center;
 }
 
 .footer2-weblotes h2{
