@@ -473,7 +473,9 @@ section {
   margin-bottom: 20px;
 }
 
-
+.space{
+  margin-bottom: 10px;
+}
 
 .textos-conteudo .valor-parcela{
   margin-top: 35px;
