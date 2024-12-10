@@ -626,7 +626,7 @@ button:hover{
   text-decoration: none; 
   position: absolute; /* Permite posicionamento livre */
   top: 290px; /* Ajuste a posição vertical */
-  left: 1080px; /* Ajuste a posição horizontal */
+  left: 1050px; /* Ajuste a posição horizontal */
   color: rgb(255, 255, 255); /* Cor do link */
   background-color: #025099;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.418);
