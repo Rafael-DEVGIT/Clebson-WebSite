@@ -57,17 +57,18 @@
     display: none;
   }
 /* TEXTO SLIDE */
-
-  .grid-item h1{
-    font-size: 13px;
+ .grid-item h1{
+    font-size: 11px;
+    color: #16e443;
   }
 
   .grid-item h2{
-    font-size: 12px;
+    font-size: 9px;
+    margin-bottom: 5px;
   }
 
   .grid-item h3{
-    font-size: 9px;
+    font-size: 11px;
     margin-bottom: 8px;
   }
 
@@ -78,12 +79,14 @@
     text-align: center;
     text-decoration: none;
     padding: 3px 7px;
-    color: #4CAF50;
-    background-color: antiquewhite;
+    color: #ffffff;
+    background-color: rgb(37, 50, 224);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.418);
   }
 
   .grid-item p{
-    font-size: 10px;
+    font-size: 9px;
+    margin-bottom: 4px;
   }
 /* MENU LOTES */
 
