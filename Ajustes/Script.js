@@ -17,15 +17,17 @@ const textos = [
   }
 
 
-  setInterval(mudarTexto, 3000);
+  setInterval(mudarTexto, 4000);
 
   mudarTexto();
 
 // jS. NAVBAR //
-function toggleMenu() {
-  const menu = document.getElementById("menu");
-  menu.classList.toggle("active");
-}
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("active");
+  }
+
+
 // JS. SLIDE // 
 
   let currentSlide = 0;
@@ -49,7 +51,7 @@ function toggleMenu() {
   }
   
   // Configurar o temporizador (ex.: 3000ms = 3 segundos)
-  setInterval(avancarSlideAutomaticamente, 3000);
+  setInterval(avancarSlideAutomaticamente, 9000);
 
 
 
