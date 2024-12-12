@@ -25,6 +25,7 @@ header{
   flex-direction: column;
   align-items: center;
   animation: blink 3s infinite;
+  z-index: 1000;
 }
 
 @keyframes blink {
@@ -58,7 +59,7 @@ header{
     padding: 10px 0px;
     font-weight: 500;
     color: #fff;
-    background-color: black;
+    background-color: #029909;
     text-align: center;
 }
 
@@ -68,7 +69,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 5px 15px;
-    background-color: #202020;
+    background-color: #000000;
     color: white;
     z-index: 1000;
     position: relative;
@@ -77,6 +78,7 @@ header{
   .logo img{   
     width: 130px;
     transition: all 0.5s;
+    margin-top: 5px;
   } 
 
   .logo img:hover{
@@ -99,7 +101,7 @@ header{
     width: 25%; /* Ocupa metade da tela */
     height:530px;
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 0px 30px ;
+    border-radius: 0px 0px 0px 30px ;
     color: white;
     display: flex;
     flex-direction: column;
@@ -156,13 +158,72 @@ header{
     color: #4CAF50;
   }
 
+
+/* Area Corretor - topo */
+
+.area-corretor {
+  width: 100%;
+}
+
+.area-corretor .conteudo-corretor {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #081769;
+}
+
+.space-corretor {
+  margin-bottom: 10px;
+}
+
+.Corretor-texto {
+  width: 550px;
+  padding: 15px 30px;
+  color: #ffffff;
+  border-radius: 5px;
+
+
+}
+
+.Corretor-texto h1 {
+  font-size: 23px;
+}
+
+.Corretor-texto h4 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+
+
+.Corretor-texto p{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+
+.corretor-img {
+  width: 100%;
+  text-align: center;
+}
+
+.corretor-img img{
+  width: 490px;
+  margin-top: -60px;
+  margin-left: -50px;
+
+}
+
+
 /* SLide - topo */
 
 .slider-container {
     position: relative;
     width: 100%;
     overflow: hidden;
-    background-color: #0921a7;
   }
   
   .slider {
@@ -177,8 +238,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     padding: 0px 30px;
     box-sizing: border-box;
-    background-color: #0921a7;
-    color: white;
+    color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
 
@@ -230,6 +290,10 @@ header{
   }
 
   .grid-item img{
+    width: 100%;
+  }
+
+  .grid-item video{
     width: 100%;
   }
 
@@ -365,7 +429,7 @@ section {
   }
 
   .div-lagoinha {
-    background-color: #1483cc
+    background-color: #1483cc;
   }
 
   .div-portal {
@@ -373,7 +437,7 @@ section {
   }
 
   .div-bosque {
-    background-color: #b91aa4;;
+    background-color: #b91aa4;
   }
 
   .div-marbello span {
@@ -444,6 +508,57 @@ section {
   .lotes-imgs img:hover{
     transform: scale(1.1);
   }
+
+
+  .lotes-videos .video-conteudo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video-conteudo {
+    width: 100%;
+  }
+  .lote-videotexto p{
+    margin-top: 10px;
+    font-size:15px;
+  }
+
+  .lote-videotexto h4::after{
+    content: '';
+    display: block;
+    width: 440px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .lote-videotexto {
+    margin-top: 26px;
+    width: 470px;
+    height: 250px;
+    color: #fff;
+    padding: 30px 30px;
+    background-color: #536437 ;
+    margin-left: 42px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+  }
+
+
+  .lotes-videos .lotes-vdo {
+    width: 100%;
+
+  }
+
+  .lotes-videos .lotes-vdo video {
+    margin-top: 25px;
+    width: 560px;
+    border-radius: 10px;
+
+  }
+  
+ 
 
 /* LOTES CONTEUDOS - TEXTOS */
 
@@ -768,10 +883,3 @@ button:hover{
   justify-content: space-between;
   align-items: center;
 }
-
-
-
-
-
-
-
