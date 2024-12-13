@@ -181,7 +181,8 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.418);
   }
 
-
+  /* LOTES CONTEUDOS -VIDEO E TEXTO  */
+  
   .lotes-videos .video-conteudo {
     width: 100%;
     display: grid;
@@ -198,7 +199,7 @@
     height: 150px;
     color: #fff;
     background-color: #536437 ;
-    margin-left: 20px;
+    margin-left: 25px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
   }
