@@ -290,7 +290,8 @@ header{
   }
 
   .grid-item img{
-    width: 100%;
+    width: 450px;
+    height: 350px; 
   }
 
   .grid-item video{
